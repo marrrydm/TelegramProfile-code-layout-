@@ -23,7 +23,7 @@ class TransitionViewController: UIViewController {
         
             let storyboard = UIStoryboard(name: "Main", bundle: nil)
             let viewController = storyboard.instantiateViewController(withIdentifier: "Two")
-            present(viewController, animated: true, completion: nil)//последнее это кому потом управление передавать
+            present(viewController, animated: true, completion: nil)
         }
 
     /*
